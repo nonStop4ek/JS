@@ -156,8 +156,8 @@ let rozkladOfday = +prompt('number of day');
 //     х являється falsy (хибноподібні, тобто приводиться до false)
 
 {
-    let x ;
-    if  (0 || (x=3)){
+    let x =3 ;
+    if  (0!==0 || 1!==x){
     console.log(x);}
 }
 
