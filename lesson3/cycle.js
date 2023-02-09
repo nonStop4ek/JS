@@ -47,12 +47,15 @@ document.write(`<div><hr>  </div>`);
 // побудувати структуру по шаблону
 // Масив:
 // {
-let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-for (let i = 0; i < listOfItems.length; i++) {
-    const listOfItem = listOfItems[i];
-    document.write(`<div> <ul><li>${listOfItems[i]}</li></ul></div>`)
+{
+    let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+    for (let i = 0; i < listOfItems.length; i++) {
+        const listOfItem = listOfItems[i];
+        document.write(`<ul><li>${listOfItems[i]}</li></ul>`)}
+
+
+    document.write(`<div><hr>  </div>`);
 }
-document.write(`<div><hr>  </div>`);
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
 // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
