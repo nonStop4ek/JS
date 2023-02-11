@@ -31,3 +31,15 @@
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 
+// {
+//     function cylinder(h, r) {
+//         let result = 2 * Math.PI * r * h;
+//         document.write(`<div>${result}</div>`)
+//         return result;
+//
+//     }
+//
+//
+//     cylinder(3, 4)
+// }
+
