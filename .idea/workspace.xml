@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5953919-f593-4435-9724-0622207dd803" name="Changes" comment="full HW with default">
-      <change afterPath="$PROJECT_DIR$/lesson5/functionPart2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/functionPart2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/functionPart2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/functionPart2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
       <workItem from="1676214223099" duration="8081000" />
       <workItem from="1676292322196" duration="2581000" />
       <workItem from="1676465996641" duration="3378000" />
+      <workItem from="1676482314883" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="full HW">
       <created>1675294884227</created>
