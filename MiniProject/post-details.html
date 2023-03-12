@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .post-details{
+            background: #dd9dee;
+        }
+        .comments-details{
+            background: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+<h1>details page of posts</h1>
+<div class="post-details">
+    <p class="post-userId">${post.userId}</p>
+    <p class="post-id">Id: ${post.id}</p>
+    <p class="post-title">Email: ${post.title}</p>
+    <p class="post-body">Email: ${post.body}</p>
+
+</div>
+<h1>Comments</h1>
+<div class="comments-details">
+    <p class="comment-userId">userId ${comment.userId}</p>
+    <p class="comment-id">Id: ${comment.id}</p>
+    <p class="comment-name">name: ${comment.name}</p>
+    <p class="comment-email">email: ${comment.email}</p>
+    <p class="comment-body">body: ${comment.body}</p>
+
+
+</div>
+<script src="post-details.js"></script>
+</body>
+</html>

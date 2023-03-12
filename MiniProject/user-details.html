@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .user-details{
+            background: aqua;
+        }
+    </style>
+</head>
+<body>
+<h1>details page of user</h1>
+<div class="user-details">
+    <h2 class="user-name">${user.name}</h2>
+    <p class="user-id">Id: ${user.id}</p>
+    <p class="user-email">Email: ${user.email}</p>
+    <p class="user-phone">Phone: ${user.phone}</p>
+    <p class="user-website">Website: ${user.website}</p>
+    <p class="user-address">Address: ${user.address.street}, ${user.address.suite}, ${user.address.city}, ${user.address.zipcode}</p>
+    <p class="user-company">Company: ${user.company.name}, ${user.company.catchPhrase}, ${user.company.bs}</p>
+</div>
+<form >
+    <button id="btn" type="button">post of current user</button>
+</form>
+
+<script src="user-details.js"></script>
+</body>
+</html>
